@@ -6,4 +6,4 @@ function onLoginBtnClick() {
   console.log("click!!!!!");
 }
 
-loginButton.addEventListener("clisk", onLoginBtnClick);
+loginButton.addEventListener("click", onLoginBtnClick);
