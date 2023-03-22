@@ -8,26 +8,26 @@
     <title>Momentum App</title>
   </head>
   <body>
-    <form class="hidden" id="login-form">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="Please Write Down your Name."
-      />
-      <button>Log In</button>
-    </form>
-    <h2 id="clock">00:00:00</h2>
-    <h1 id="greeting" class="hidden"></h1>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To Do and Press Enter" required />
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-      <span></span>
-      <span></span>
-    </div>
     <div id="weather"><span></span><span></span></div>
+
+    <main class="main">
+      <form class="hidden" id="login-form">
+        <h1>Hello, what's your name?</h1>
+        <input required maxlength="15" type="text" />
+        <button>Log In</button>
+      </form>
+      <h2 id="clock">00:00:00</h2>
+      <h1 id="greeting" class="hidden"></h1>
+      <form id="todo-form">
+        <span>TODO LIST</span>
+        <input type="text" placeholder="+ New Todo" required />
+      </form>
+      <ul id="todo-list"></ul>
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+    </main>
     <script
       src="https://kit.fontawesome.com/578bcb00a3.js"
       crossorigin="anonymous"
