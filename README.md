@@ -1,2 +1,2 @@
-# Vanilla JavaScript - MoMemtum Clong Coding
+# Vanilla JavaScript - Momemtum Clone-Coding
 learned from NomadCoder
