@@ -40,16 +40,16 @@
   text-shadow: var(--text-shadow);
   font-size: var(--text-size);
   font-family: var(--font-family);
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 #login-form {
   margin-top: 100px;
   
 }
+
 
 #login-form input {
   width: 300px;
@@ -65,15 +65,6 @@
 
 #login-form input::placeholder {
   color: var(--text-color);
-}
-
-#login-form button {
-  margin-top: 10px;
-  border: none;
-  background-color: transparent;
-  font-size: var(--text-size);
-  color: var(--text-color);
-  text-shadow: var(--text-shadow);
 }
 
 #clock {
